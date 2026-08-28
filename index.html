@@ -6,7 +6,8 @@
     content="width=device-width, initial scale=1.0">
     <title> Portfolio Website</title>
     <link rel ="stylesheet" href="styles.css">
-    <link rel ="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <!--<link rel ="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://use.typekit.net/lgo2emf.css">
 </head>
 <body>
 
@@ -30,7 +31,12 @@
 
         <i class="fa-solid fa-bars" id ="menu-icon"></i>
 
-        <button class="visit-btn">Visit Github</button>
+       <!--<button class="visit-btn">Visit Github
+             <a href="https://github.com/liz-reyes-afk/portfolio-website" target="_blank"></a>
+        </button> --> 
+        <a href="https://github.com/liz-reyes-afk" target="_blank" class="visit-btn" rel="noopener noreferrer">
+  Visit Github
+</a>
     </header>
 
 </body>
@@ -39,7 +45,6 @@
         <div class ="about-container">
             <!-- PLS change photo later-->
             <img src= "headshot.png" alt="">
-
             <div class="info-box">
                 <div class="text">
                     <h3>Hi, I'm</h3>
@@ -47,12 +52,20 @@
                     <span>UX/UI Designer</span>
                  </div>
         <div class="btn-group">
-            <div class="btn">Download CV</div>
+            <div class="btn">
+               <a href="Files/resume_portfolio.pdf" class="btn-group" target="_blank">
+                Download CV
+            </a>
+            </div>
             <div class="btn">Contact</div>
 
             <div class="socials">
+                <a href="https://github.com/liz-reyes-afk" target="_blank">
                 <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/elizabeth-reyes-527374293/" target="_blank">
                 <i class="fa-brands fa-linkedin"></i>
+</a>
             </div>
         </div>
     </section>
@@ -62,19 +75,17 @@
         <div class="experience-info">
             <div class="grid">
                 <div class="grid-card">
-                <i class="fa-brands fa-sketch"></i>
+                <i class="fa-solid fa-bolt"></i>
                 <span>Red Bull Student Marketeer</span>
                 <h3>1 year</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Integer nec odio. Praesent libero. </p>
+                <p> Outside of design, I spent time as a Red Bull Student Marketeer — running sampling events, building partnerships with campus clubs, and working on brand projects. It taught me a lot about reading a room and adapting quickly, which shows up in how I approach design today.</p>
             </div>
 
             <div class="grid-card">
-            <i class="fa-brands fa-sketch"></i>
+            <i class="fa-solid fa-photo-film"></i>
             <span>Public Relations for MSOE Baja</span>
             <h3>1 year</h3>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer nec odio. Praesent libero. </p>
+            <p>Managed social media and helped grow the team's visibility.</p>
             </div>
          </div>
         </div>
@@ -89,8 +100,12 @@
                 <h3> Mobile App Prototype</h3>
                 <p>Designed a mobile wellness app that encourages consistent emotional check-ins. I conducted user research, created low- and high-fidelity wireframes, built an interactive prototype in Figma, and iterated on the design based on usability feedback.</p>
             <div class="btn-group">
-                <div class="btn">Live Demo</div>
-                <div class="btn">Figma File</div>
+                <div class="btn">
+                     <a href="https://www.figma.com/proto/cCwja1mxqTXYnx5q4uESuP/UXD-1030--final-project?node-id=23-136&p=f&t=vB7GNXnbc9deHkKc-0&scaling=scale-down&content-scaling=fixed&page-id=20%3A115&starting-point-node-id=23%3A136" class="btn-group" target="_blank">Demo</a>
+                </div>
+                <div class="btn">
+                    <a href="https://www.figma.com/design/cCwja1mxqTXYnx5q4uESuP/UXD-1030--final-project?node-id=20-115&p=f&t=vB7GNXnbc9deHkKc-0" class="btn-group" target="_blank">Figma File</a>
+                </div>
             </div>
         </div>
 
@@ -99,22 +114,28 @@
                 <img src="project2.png" alt="">
                 <h3>ShapesXR Manual Driving Project</h3>
                 <p>Designed an immersive XR training experience that teaches beginners how to drive a manual transmission. The project focused on reducing cognitive overload by guiding users through clutch control, gear shifting, and driving sequences using intuitive visual cues, interaction design, and progressive instruction.</p>
-                <div class="btn">Live Demo</div>
-                <div class="btn">ShapesXR File/Video</div>
+                <div class="btn">
+                <a href="Files/Case Study - Manual Driving Experience.pdf" class="btn-group" target="_blank">Case Study</a>
+                </div>
+                <div class="btn">
+                    <!--INSTEAD OF DOING A LINK DO A VIDEO (ppl cant see w/o logging in)-->
+                     <a href="https://shapes.app/space/view/da6e55f2-b4dc-4eab-b579-1a4d649ec0bf/e199871c" target="_blank">ShapesXR File/Video</a>
+                </div>
             </div>
         </div>
         <div class="projects-grid"> <!--EDIT THIS PROJECT PLS-->
             <div class="project-card">
-                <img src="project2.png" alt="">
-                <h3>ShapesXR Manual Driving Project</h3>
-                <p>Designed an immersive XR training experience that teaches beginners how to drive a manual transmission. The project focused on reducing cognitive overload by guiding users through clutch control, gear shifting, and driving sequences using intuitive visual cues, interaction design, and progressive instruction.</p>
-                <div class="btn">Live Demo</div>
-                <div class="btn">ShapesXR File/Video</div>
+                <img src="project3.png" alt="">
+                <h3>The UX Writing Swipe File</h3>
+                <p>A curated analysis of real-world UX writing, breaking down what makes microcopy effective using UX writing principles and behavioral psychology, across onboarding, errors, and CTAs.</p>
+                <div class="btn">
+                    <a href="Files/Swipe File - UXD 2050.pdf" target="_blank">View File</a>
+                </div>
             </div>
         </div>
     </div>
     </section>
-<section class="contact" id="contact">
+<!--<section class="contact" id="contact">
 <div class="input-box">
     <h2 class="section-title">Contact Me</h2>
     <div class="input">
@@ -123,7 +144,27 @@
     </div>
     <div class="btn">Submit</div>
 </div>
+</section> -->
+<section class="contact" id="contact">
+<div class="input-box">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="input">
+        <input type="email" id="userEmail" placeholder="example@email.com">
+        <i class="fa-solid fa-envelope"></i>
+    </div>
+    <div class="btn" onclick="sendEmail()">Submit</div>
+</div>
 </section>
+<script>
+function sendEmail() {
+    const userEmail = document.getElementById('userEmail').value;
+    const yourEmail = "reyese@msoe.edu"; // replace with your real email
+    const subject = "Portfolio Contact";
+    const body = `Please contact me back at: ${userEmail}`;
+    
+    window.location.href = `mailto:${yourEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
+</script>
 
 <footer>
 
